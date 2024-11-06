@@ -1,0 +1,244 @@
+body {
+    /*
+    Font chữ  'Montserrat' 'Verdana', 'Geneva', sans-serif
+    */
+}
+
+.mainpart {
+    max-width: 180rem;/*Chiều rộng tối đa: 180rem*/
+    margin: 0 auto; /*Căn giữa phần tử*/
+   
+}
+
+.mainpart_container {
+    /*
+    Chiều rộng tối đa: 140rem
+    Căn giữa phần tử: margin 0 auto
+    Khoảng cách padding hai bên: 10rem
+    */
+}
+
+.exercise_section {
+    /*
+    Đổ bóng: 0 4px 16px rgba(0, 0, 0, 0.2)
+    Khoảng cách padding: 30px
+    Khoảng cách margin trên và dưới: 30px
+    */
+}
+
+table, td, th {
+    border-collapse:collapse;/*Gộp các đường viền: border-collapse*/
+    /* Đường viền: 1px solid #ccc */
+    
+}
+
+.exercise__heading h1 {
+    /*
+    Màu chữ: #003056
+    Kích thước font chữ: 30px
+    Căn giữa ch
+    Khoảng cách padding dưới: 50px
+    */
+}
+
+.intro__heading h2, .member__heading h2, .seminar__heading h2, .activity__heading h2 {
+    /*
+    Màu chữ: #003056
+    */
+}
+
+.intro__content p:first-child {
+    /*
+    In nghiêng chữ
+    Font chữ đậm: 600
+    Căn giữa chữ
+    */
+}
+
+.intro__content p:last-child {
+    /*
+    Căn phải chữ
+    */
+}
+
+.intro__content p {
+    /*
+    Khoảng cách dòng:25px
+    */
+}
+
+.intro__img img {
+    /*
+    Chiều rộng tối đa: 700px
+    Căn giữa ảnh: display: block và margin-left/right: auto
+    */
+}
+
+.intro__img p {
+    /*
+    Căn giữa chữ:
+    Kích thước font chữ: 16px
+    Khoảng cách dòng: 160%
+    In nghiêng chữ
+    Khoảng cách padding trên: 10px
+    */
+}
+
+.activity__content p:first-child {
+    /*
+    In nghiêng chữ
+    Font chữ đậm
+    */
+}
+
+.activity__content ol li {
+    /*
+    Khoảng cách padding trên dưới: 10px
+    Khoảng cách margin hai bên: 20px
+    */
+}
+
+table {
+    /*
+    Màu nền bảng: #003056
+    Màu chữ: #fff (trắng)
+    */
+}
+
+.member__content table thead tr th:first-child {
+    /*
+    Chiều rộng (cột đầu tiên): 50px
+    */
+}
+
+.member__content table thead tr th:nth-child(2) {
+    /*
+    Chiều rộng (cột thứ hai): 150px
+    */
+}
+
+.member__content table thead tr th:nth-child(3) {
+    /*
+    Chiều rộng (cột thứ ba): 150px
+    */
+}
+
+.member__content table thead tr th:nth-child(4) {
+    /*
+    Chiều rộng (cột thứ tư): 100px
+    */
+}
+
+.member__content table thead tr th:nth-child(5) {
+    /*
+    Chiều rộng (cột thứ năm): 100px
+    */
+}
+
+.member__content table thead tr th:last-child {
+    /*
+    Chiều rộng (cột cuối cùng): 200px
+    */
+}
+
+.member__content table tbody tr td:first-child,
+.member__content table tbody tr td:last-child,
+.member__content table tbody tr td:nth-child(5) {
+    /*
+    Căn giữa (nội dung các ô trong các cột đầu tiên, thứ năm và cột cuối cùng)
+    */
+}
+
+.member__content table tbody tr td:nth-child(2) {
+    /*
+    In nghiêng chữ
+    Font chữ đậm nhẹ: 500
+    Màu chữ: đỏ
+    */
+}
+
+.seminar__benefit ul {
+    list-style-type:none; /*Bỏ dấu chấm đầu dòng: */
+}
+
+.seminar__benefit ul li {
+    /*
+    Kích thước font chữ: 18px
+    Font chữ đậm: 600
+    Khoảng cách dòng: 30px
+    */
+}
+
+.form {
+    /*
+    Chiều rộng 500px
+    Chiều cao  550px
+    Màu nền #fff (trắng)
+    Font chữ đậm
+    Đổ bóng form: 0 0 5px #003056
+    Căn giữa ngang form: position: relative, left: 50%, và transform: translate(-50%, 0)
+    Khoảng cách padding: 20px
+    */
+}
+
+.form h3 {
+    /*
+    Căn giữa 
+    Kích thước font chữ: 30px
+    Màu chữ: #003056
+    */
+}
+
+.info {
+    /*
+    Chiều rộng 100% 
+    Chiều cao: 30px
+    Đường viền: 1px solid #ccc
+    Bo tròn góc: 2px
+    Khoảng cách padding trong ô: 10px
+    Kích thước font chữ: 14px
+    */
+}
+
+input, label {
+    /*
+    Hiển thị dưới dạng block
+    Khoảng cách margin trên dưới: 10px
+    */
+}
+
+textarea {
+    /*
+    Chiều rộng 99% 
+    */
+}
+
+.submit {
+    /*
+    Chiều rộng 100% 
+    Đường viền: 1px solid #ccc
+    Khoảng cách padding trên dưới: 10px
+    Font chữ đậm
+    Màu nền: #003056
+    Màu chữ: trắng
+    Hiệu ứng khi hover: Màu chữ đổi thành #003056 và màu nền đổi thành #ccc
+    */
+}
+.submit:hover{
+    /* Hiệu ứng khi hover: Màu chữ đổi thành #003056 và màu nền đổi thành #ccc */
+}
+
+.form img {
+    /*
+    Chiều rộng ảnh: 150px
+    Vị trí tuyệt đối (absolute)
+    Khoảng cách top: 2px
+    Khoảng cách right: 5px
+    */
+}
+
+.form form label {
+    /*
+    Màu chữ: #003056
+    */
+}
